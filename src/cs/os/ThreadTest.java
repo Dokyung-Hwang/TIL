@@ -4,7 +4,7 @@ public class ThreadTest {
     public static void main(String[] args) {
         ThreadWithClass thread1 = new ThreadWithClass();    // Thread 클래스를 상속받는 방법
         Thread thread2 = new Thread(new ThreadWithInterface());     // Runnable 인터페이스를 구현하는 방법
-        Thread thread3 = new Thread(new ThreadWithInterface());
+        Thread thread3 = new Thread(new ThreadWithInterfacePriority());
 
         thread3.setPriority(10);        // Thread-2의 우선순위를 10으로 변경
 
