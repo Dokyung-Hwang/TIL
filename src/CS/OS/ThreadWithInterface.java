@@ -1,4 +1,4 @@
-package cs.os;
+package CS.OS;
 
 public class ThreadWithInterface implements Runnable{
     public void run() {

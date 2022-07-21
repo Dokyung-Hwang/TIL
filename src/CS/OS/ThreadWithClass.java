@@ -1,4 +1,4 @@
-package cs.os;
+package CS.OS;
 
 public class ThreadWithClass extends Thread{
     public void run() {
