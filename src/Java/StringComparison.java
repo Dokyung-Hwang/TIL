@@ -12,8 +12,5 @@ public class StringComparison {
         System.out.println(str2 == str3);       // 주소 값을 비교     F
         System.out.println(str2.equals(str3));      // 값 자체를 비교     T
         System.out.println(str3.equals(str4));      // 값 자체를 비교     T
-
-
-
     }
 }
